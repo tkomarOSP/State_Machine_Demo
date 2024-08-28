@@ -310,9 +310,8 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="cf5f9ca3-8e01-467b-80c0-25ca3d099bad"
             name="Environment" abstractType="#cef32807-a0e0-489d-94ee-43e2b65cda38"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="1def86bf-04b4-4911-98d1-353aa9b74016" name="Environment_Comm_Link"
-            source="#a90ef827-9607-4415-a945-8e588879c85b" target="#b4fbf1a2-6f69-44c0-8690-a9c24d9288b0"
-            kind="FLOW">
+            id="1def86bf-04b4-4911-98d1-353aa9b74016" name="Env_Comm" source="#a90ef827-9607-4415-a945-8e588879c85b"
+            target="#b4fbf1a2-6f69-44c0-8690-a9c24d9288b0" kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="ee4c6aba-a20e-44d1-84a5-d5a61b7579e6" targetElement="#f139b9c0-4215-4bf3-8a40-8e9aea08e400"
               sourceElement="#1def86bf-04b4-4911-98d1-353aa9b74016"/>
@@ -339,7 +338,7 @@
                 id="b5e56931-ca20-495f-a1b3-8d148645a9b1" targetElement="#52c270bc-f14f-4ae5-b410-57d25c09ae45"
                 sourceElement="#729bda9f-0326-4e3c-8cb2-69ecc4f50047"/>
             <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
-                id="56be565d-331a-4548-80d6-f3e6f7d3d1ad" name="StateMachine 1">
+                id="56be565d-331a-4548-80d6-f3e6f7d3d1ad" name="Stop Light Observer">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="1ad3c66b-9846-4f50-91de-a776e2de3f82" name="Default Region"
                   involvedStates="#036eab10-eb92-4ca1-8c54-46469492b69e #af0a316c-df43-429a-80f5-4052a59f510a">
@@ -421,7 +420,7 @@
                 id="f3f8f97e-517e-49c6-8bd9-381c629d1b70" targetElement="#69bff5ef-1cd8-45e5-9056-0f5c15082d7b"
                 sourceElement="#65c510bb-cd41-49e2-b9bd-2206c6aa4fb9"/>
             <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
-                id="c6681833-0fa0-4a1f-8c9a-c73e1ce610ce" name="StateMachine 1">
+                id="c6681833-0fa0-4a1f-8c9a-c73e1ce610ce" name="Stop Light State Machine">
               <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                   id="ceed4f66-5daf-4e02-9bd2-009bc6f25987" name="Default Region"
                   involvedStates="#05d00a6c-97dd-4022-9384-28b8de26a0b4 #6cc40b61-f75d-4fea-9ea4-a10ace6c0be1 #69c040f1-acf9-41ae-af24-db7c5d0d9d33">
